@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  AGVideo
+//
+//  Created by Mao on 15/4/16.
+//  Copyright (c) 2015年 AppGame. All rights reserved.
+//
+
+#ifndef AGVideo_PrefixHeader_pch
+#define AGVideo_PrefixHeader_pch
+#ifdef __OBJC__
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import <AFNetworking/AFNetworking.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "AGFileManager.h"
+#import "AGUtilities.h"
+#import <Mantle/Mantle.h>
+#import "NSDate+AGExtension.h"
+#import "NSObject+AGExtension.h"
+#import "NSString+AGExtension.h"
+#import "UIColor+AGExtension.h"
+#import "UIImage+AGExtension.h"
+#import "UIView+AGExtension.h"
+#import <PINCache/PINCache.h>
+#import <Aspects/Aspects.h>
+#import "MBProgressHUD.h"
+#import <NYXImagesKit/NYXImagesKit.h>
+#import "UIViewController+AGExtension.h"
+#import "AGCommonDefines.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import "AGSystemInfo.h"
+#import "NSObject+Accessors.h"
+#import "AGUtilities.h"
+#import "UIView+EasyLayout.h"
+#import <Realm/Realm.h>
+#import "AGAppearanceService.h"
+#endif
+#endif
+
